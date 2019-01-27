@@ -38,7 +38,7 @@ agent
 Carthage setup.
 
 ```
-github "maxvol/RxGameplayKit" ~> 0.0.1
+github "maxvol/RxGameplayKit" ~> 0.0.2
 
 ```
 
