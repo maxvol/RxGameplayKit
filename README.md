@@ -1,6 +1,8 @@
 # RxGameplayKit
 RxGameplayKit (based on RxSwift)
 
+*NB*: It is probably counterproductive to use it with `GKSKNodeComponent` or `GKSCNNodeComponent` which already implement the delegate methods, but with nodeless agents and non-SpriteKit/SceneKit usage it may come in handy.
+
 Basic usage.
 
 ```swift
@@ -34,8 +36,6 @@ agent
     .disposed(by: disposeBag)
 
 ```
-
-*NB*: It is probably counterproductive to use it with `GKSKNodeComponent` or `GKSCNNodeComponent` which already implement the delegate methods, but with nodeless agents and non-SpriteKit/SceneKit use it may come in handy.
 
 Carthage setup.
 
